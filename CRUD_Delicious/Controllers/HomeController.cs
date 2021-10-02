@@ -12,21 +12,18 @@ namespace CRUD_Delicious.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private CRUD_DeliciousContext db;
+        public HomeController(CRUD_DeliciousContext context)
         {
-            _logger = logger;
+            db = context;
         }
 
+        [HttpGet("")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

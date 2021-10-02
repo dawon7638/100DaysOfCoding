@@ -6,7 +6,7 @@ namespace CRUD_Delicious.Models
     public class DishModel
     {
         [Key]//Required for all assignments
-             ///////////////////DISH ID
+        ///////////////////DISH ID
         public int DishId { get; set; }
 
         ////////////////FOOD NAME
@@ -27,16 +27,22 @@ namespace CRUD_Delicious.Models
         [Range(1, 5, ErrorMessage = "Tastiness must be between 1 and 5!")]
         public int Tastiness { get; set; }
 
+        //////////CALORIES
+        [Required]
+        [Display(Name = "# of Calories:")]
+        [Range(1, 9999, ErrorMessage = ("Calories must be greater than 0!"))]
+        public int Calories { get; set; }
+
         ///////////DESCRIPTION
         [Required(ErrorMessage = "Description required!")]
         [Display(Name = "Description:")]
         public string Description { get; set; }
 
         //////////CREATED AT DATE AND TIME
-        public DateTime CreatedAt {get; set;} = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         //////////UPDATED AT DATE AND TIME
-        public DateTime UpdatedAt {get; set;} = DateTime.Now;
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
 
 
     }
