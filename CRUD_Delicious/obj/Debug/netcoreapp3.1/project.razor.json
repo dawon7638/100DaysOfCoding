@@ -14402,6 +14402,11 @@
   "RootNamespace": "CRUD_Delicious",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Dishes\\Add.cshtml",
+      "TargetPath": "Views\\Dishes\\Add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14422,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Dishes\\Edit.cshtml",
+      "TargetPath": "Views\\Dishes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -14432,8 +14442,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Dishes\\All.cshtml",
+      "TargetPath": "Views\\Dishes\\All.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dawon\\OneDrive\\Desktop\\Projects\\100DaysOfCoding\\CRUD_Delicious\\Views\\Dishes\\Read.cshtml",
+      "TargetPath": "Views\\Dishes\\Read.cshtml",
       "FileKind": "mvc"
     }
   ],
