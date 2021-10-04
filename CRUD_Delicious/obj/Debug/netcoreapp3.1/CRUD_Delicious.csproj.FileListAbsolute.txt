@@ -7,7 +7,6 @@ C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debu
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\CRUD_Delicious.TagHelpers.input.cache
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\CRUD_Delicious.TagHelpers.output.cache
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\CRUD_Delicious.RazorCoreGenerate.cache
-C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -56,3 +55,8 @@ C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debu
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\CRUD_Delicious.csproj.CopyComplete
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\staticwebassets\CRUD_Delicious.StaticWebAssets.Manifest.cache
 C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\staticwebassets\CRUD_Delicious.StaticWebAssets.xml
+C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Dishes\Add.cshtml.g.cs
+C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Dishes\Edit.cshtml.g.cs
+C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Dishes\Read.cshtml.g.cs
+C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Dishes\All.cshtml.g.cs
+C:\Users\dawon\OneDrive\Desktop\Projects\100DaysOfCoding\CRUD_Delicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

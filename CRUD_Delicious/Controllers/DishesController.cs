@@ -1,4 +1,5 @@
 using CRUD_Delicious.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CRUD_Delicious.Controllers
 {
@@ -10,7 +11,13 @@ namespace CRUD_Delicious.Controllers
         {
             db = context;
         }
+        [HttpGet("/")]
+        public IActionResult All()
+        {
+            return View("All");
+        }
 
-        
+
     }
+    
 }
