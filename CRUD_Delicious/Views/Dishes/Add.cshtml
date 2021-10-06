@@ -3,32 +3,44 @@
 <a href="/">Home</a>
 
 <form asp-controller="Dishes" asp-action="Create" method="POST">
-<div class="row">
-    <div class="col-sm-4">
-        <span class= "text-danger" asp-validation-for="Chef"></span>
-        <div class="form-group">
-            <label asp-for="Chef"></label>
-            <input asp-for="Chef" class= "form-control" size="30" type="text"/>
-        </div>
-    <div class="col-sm-4">
-        <span class= "text-danger" asp-validation-for="Tastiness"></span>
-        <div class="form-group">
-            <label asp-for="Tastiness"></label>
-            <select asp-for="Tastiness" class= "form-control"  type="text"select>
-                <option>Please Rate</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-        </div>
-    <div class="col-sm-4">
-        <span class= "text-danger" asp-validation-for="Chef"></span>
-        <div class="form-group">
-            <label asp-for="Chef"></label>
-            <input asp-for="Chef" class= "form-control" size="30" type="text"/>
+    <div class="left">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class= "text-danger" asp-validation-for="Chef"></span>
+                <div class="form-group">
+                <label asp-for="Chef"></label>
+                <input asp-for="Chef" class= "form-control" size="30" type="text"/>
+            </div>
+        </div>     
+    </div>
+    <div class="middle">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class= "text-danger" asp-validation-for="Tastiness"></span>
+                <div class="form-group">
+                    <label asp-for="Tastiness"></label>
+                    <select asp-for="Tastiness" class= "form-control"  type="text"select>
+                        <option>Please Rate</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+        </div>      
+    </div>
+        
+        <div class="col-sm-4">
+            <span class= "text-danger" asp-validation-for="Name"></span>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class= "form-control" size="30" type="text"/>
+            </div> 
         </div>
     </div>
-</div>
+
+
+
 </form>

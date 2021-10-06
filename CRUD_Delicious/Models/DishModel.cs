@@ -9,17 +9,17 @@ namespace CRUD_Delicious.Models
         ///////////////////DISH ID
         public int DishId { get; set; }
 
-        ////////////////FOOD NAME
-        [Required(ErrorMessage = "Please name your dish!")]
-        [Display(Name = "Name of Dish:")]
-        [MaxLength(45)]
-        public string Name { get; set; }
-
         /////////////CHEF'S NAME
         [Required(ErrorMessage = "Who is the creator of this dish?!")]
         [Display(Name = "Chef's Name:")]
         [MaxLength(45)]
         public string Chef { get; set; }
+        
+        ////////////////FOOD NAME
+        [Required(ErrorMessage = "Please name your dish!")]
+        [Display(Name = "Name of Dish:")]
+        [MaxLength(45)]
+        public string Name { get; set; }
 
         ////////////TASTINESS
         [Required]
