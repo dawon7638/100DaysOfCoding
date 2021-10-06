@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CRUD_Delicious.Controllers
 {
-    public class DishesController
+    public class DishesController : Controller
     {
         private CRUD_DeliciousContext db;
 
