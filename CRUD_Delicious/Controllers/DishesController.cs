@@ -17,7 +17,11 @@ namespace CRUD_Delicious.Controllers
             return View("All");
         }
 
-
+        [HttpGet("/new")]
+        public IActionResult Add()
+        {
+            return View("Add");
+        }
     }
     
 }

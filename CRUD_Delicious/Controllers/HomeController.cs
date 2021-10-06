@@ -18,11 +18,11 @@ namespace CRUD_Delicious.Controllers
             db = context;
         }
 
-        [HttpGet("")]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        // [HttpGet("")]
+        // public IActionResult Index()
+        // {
+        //     return View();
+        // }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
